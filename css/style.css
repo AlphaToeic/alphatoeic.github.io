@@ -1,0 +1,115 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/spoqa-han-sans/2.1.1/css/SpoqaHanSans-kr.min.css');
+
+body {
+	font-family: 'Spoqa Han Sans', Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+th {
+  font-weight: 400;
+}
+
+dt {
+  margin: 1rem 0;
+  font-weight: 600;
+}
+
+dd {
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 997;
+}
+
+#navbar nav {
+  background-color: #3a70b0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#navbar div.nav-wrapper {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#navbar .brand-logo {
+  padding: 0 0 0 1rem;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #navbar .brand-logo {
+    padding-left: 0;
+  }
+}
+
+#content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#page-index #content {
+  width: 100%;
+  margin: 0;
+  padding-top: 0;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#page-index #content a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#page-index #content {
+  font-size: 1.6rem;
+  line-height: 1.6em;
+}
+
+#page-index #content strong {
+  font-weight: 600;
+}
+
+#page-index .section {
+  padding: 0;
+  background-color: #3a70b0;
+}
+
+#page-index .slide-wrapper {
+  margin: 128px 64px 64px;
+}
+
+#page-index .fp-controlArrow {
+  border-width: 0;
+}
+
+#page-index .fp-controlArrow.fp-next::after {
+  content: '\E001';
+  margin-left: -40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 50px;
+}
+
+#page-index .fp-controlArrow.fp-prev::before {
+  content: '\E000';
+  margin-left: 1px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 50px;
+}
+
